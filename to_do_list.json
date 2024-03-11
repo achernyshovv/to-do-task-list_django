@@ -1,0 +1,103 @@
+[
+  {
+    "model": "task_list.tag",
+    "pk": 1,
+    "fields": {
+      "name": "Work"
+    }
+  },
+  {
+    "model": "task_list.tag",
+    "pk": 2,
+    "fields": {
+      "name": "Personal"
+    }
+  },
+  {
+    "model": "task_list.tag",
+    "pk": 3,
+    "fields": {
+      "name": "Study"
+    }
+  },
+  {
+    "model": "task_list.tag",
+    "pk": 4,
+    "fields": {
+      "name": "Health"
+    }
+  },
+  {
+    "model": "task_list.tag",
+    "pk": 5,
+    "fields": {
+      "name": "Fitness"
+    }
+  },
+  {
+    "model": "task_list.task",
+    "pk": 1,
+    "fields": {
+      "content": "Finish project for client X",
+      "created_data": "2024-03-11T08:00:00Z",
+      "deadline": "2024-03-18",
+      "is_done": false,
+      "tags": [1, 2]
+    }
+  },
+  {
+    "model": "task_list.task",
+    "pk": 2,
+    "fields": {
+      "content": "Prepare presentation for team meeting",
+      "created_data": "2024-03-12T10:30:00Z",
+      "deadline": "2024-03-15",
+      "is_done": false,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "task_list.task",
+    "pk": 3,
+    "fields": {
+      "content": "Buy groceries for the week",
+      "created_data": "2024-03-11T09:00:00Z",
+      "deadline": null,
+      "is_done": true,
+      "tags": [2]
+    }
+  },
+  {
+    "model": "task_list.task",
+    "pk": 4,
+    "fields": {
+      "content": "Learn Python programming",
+      "created_data": "2024-03-11T14:00:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": [3]
+    }
+  },
+  {
+    "model": "task_list.task",
+    "pk": 5,
+    "fields": {
+      "content": "Go for a 30-minute jog",
+      "created_data": "2024-03-11T07:00:00Z",
+      "deadline": "2024-03-14",
+      "is_done": true,
+      "tags": [4, 5]
+    }
+  },
+  {
+    "model": "task_list.task",
+    "pk": 6,
+    "fields": {
+      "content": "Read a chapter of the new book",
+      "created_data": "2024-03-12T20:00:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": [2, 3]
+    }
+  }
+]
